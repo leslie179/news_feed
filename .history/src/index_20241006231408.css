@@ -1,0 +1,39 @@
+.feed-item {
+    display: flex;
+    align-items: center;
+    background-color: rgb(249, 249, 249);
+    margin-bottom: 20px;
+    padding-right: 10px;
+    position: relative;
+    drop
+}
+
+.feed-item__image-wrapper img {
+    width: 400px;
+    margin-right: 10px;
+}
+
+.feed-item__image-placeholder {
+    width: 400px;
+    height: 300px;
+    margin-right: 10px;
+    background-color: rgb(225,225,225);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(150,150,150);
+    font-size: 24px;
+}
+
+.feed-item h2 {
+    font-size: 32px;
+}
+
+.feed-item__close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    padding: 2px;
+}

@@ -1,0 +1,11 @@
+.feed-item {
+    display: flex;
+    align-items: center;
+    background-color: rgb();
+}
+
+.feed-item__image-wrapper {
+    max-width: 200px;
+    margin-right: 10px;
+}
+

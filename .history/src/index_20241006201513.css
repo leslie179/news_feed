@@ -1,0 +1,30 @@
+.feed-item {
+    display: flex;
+    align-items: center;
+    background-color: rgb(240,240,240);
+    margin-bottom: 20px;
+    padding-right: 10px;
+    position: relative;
+}
+
+.feed-item__image-wrapper img {
+    width: 400px;
+    margin-right: 10px;
+}
+
+.feed-item__image-placeholder {
+    width: 400px
+}
+
+.feed-item h2 {
+    font-size: 32px;
+}
+
+.feed-item__close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    padding: 2px;
+}
